@@ -15,11 +15,11 @@ boton.addEventListener("click", () => {
 let registrada = registrada.value;
 let km = distancia.value;
 let tarifa = tarifa.innerText;
-if (registrada === "si" );
+if (registrada === "Sí" );
 if (km <= 3) {
  tarifa = 715.24;
 }
-else if (km <=6) {
+else if (km <= 6) {
   tarifa = 794.74
 }
 else if (km <= 12){
@@ -29,7 +29,8 @@ else if (km <=27){
   tarifa= 917.24
 }
 
-if (registrada === "no" )
+
+if (registrada === "No" )
   if (km <= 3) {
     tarifa = 1,137.23
    }
@@ -42,3 +43,4 @@ if (registrada === "no" )
    else if (km <=27){
      tarifa= 1,458.41
    }
+  
