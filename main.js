@@ -14,8 +14,10 @@ boton.addEventListener("click", () => {
   let reg = registrada.value;
 let km = distancia.value;
 let valor = tarifa.innerText;
+let localidad = localidad;
 
 if (reg === "si" );
+if (localidad=== "caba")
 if (km <= 3) {
  valor = 715.24;
 }
@@ -28,6 +30,40 @@ valor = 855.97
 else if (km <=27){
   valor= 917.24
 }
+if (reg === "si" );
+if (localidad=== "pba")
+  if (km <= 3) {
+   valor = 968,57;
+  }
+  else if (km <= 6) {
+    valor = 1.089,64
+  }
+  else if (km <= 12){
+  valor = 1.210,71
+  }
+  else if (km <=27){
+    valor= 1.452,85
+  }
+  else if (km <27){
+    valor= 1.708,2
+  }
+  if (reg === "si" );
+if (localidad ==="nacional")
+  if (km <= 3) {
+    valor = 700;
+   }
+   else if (km <= 6) {
+     valor =  779,78
+   }
+   else if (km <= 12){
+   valor = 839,86
+   }
+   else if (km <=27){
+     valor= 899,99
+   }
+   else if (km <27){
+     valor= 959,71
+   }
 
 if (reg === "no" )
   if (km <= 3) {
@@ -59,5 +95,8 @@ if (reg=== "Tarifasocial")
    else if (km <=27){
      valor= 434.97
    }
+
+   
    alert(valor)
+
   });
