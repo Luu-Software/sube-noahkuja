@@ -9,38 +9,55 @@ Distancia	  | Con SUBE registrada   | Con SUBE sin registrar
 */
 
 boton.addEventListener("click", () => {
-  // COMPLETAR
-});
 
-let registrada = registrada.value;
+  // COMPLETAR
+  let reg = registrada.value;
 let km = distancia.value;
-let tarifa = tarifa.innerText;
-if (registrada === "Sí" );
+let valor = tarifa.innerText;
+
+if (reg === "si" );
 if (km <= 3) {
- tarifa = 715.24;
+ valor = 715.24;
 }
 else if (km <= 6) {
-  tarifa = 794.74
+  valor = 794.74
 }
 else if (km <= 12){
-tarifa = 855.97
+valor = 855.97
 }
 else if (km <=27){
-  tarifa= 917.24
+  valor= 917.24
 }
 
-
-if (registrada === "No" )
+if (reg === "no" )
   if (km <= 3) {
-    tarifa = 1,137.23
+    valor = 1,137.23
    }
    else if (km <=6) {
-     tarifa =1,263.64
+     valor =1,263.64
    }
    else if (km <= 12){
-   tarifa = 1,360.99
+   valor = 1,360.99
    }
    else if (km <=27){
-     tarifa= 1,458.41
+     valor= 1,458.41
    }
   
+ 
+
+
+if (reg=== "Tarifasocial")
+  if (km <= 3) {
+    valor = 339.18
+   }
+   else if (km <=6) {
+     valor =  376.88
+   }
+   else if (km <= 12){
+   valor = 405.91
+   }
+   else if (km <=27){
+     valor= 434.97
+   }
+   alert(valor)
+  });

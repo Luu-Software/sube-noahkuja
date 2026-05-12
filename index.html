@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="main.js"></script>
+
   </head>
   <body>
     <header><img src="img/logo_sube.svg" alt="logo sube" /></header>
@@ -21,6 +21,11 @@
       <select class="montserrat-regular" id="registrada">
         <option value="si">Sí</option>
         <option value="no">No</option>
+        <option value="Tarifasocial">Tarifa social</option>
+        <label for="Localidad">¿Que localidad estas?</label>
+        <option value="CABA"> CABA</option>
+        <option value ="Nacionales"> Nacionales</option>
+        <option value="Provinciadebuenosaires"> Provinciadebuenosaires</option>
       </select>
       <label for="distancia">Km a recorrer</label>
       <input
@@ -30,15 +35,10 @@
         id="distancia"
         placeholder="Ingrese los km"
       />
+
       <div class="boton montserrat-regular" id="boton">Calcular tarifa</div>
     </form>
     <p class="resultado montserrat-regular" id="tarifa">(Tarifa)</p>
-  
-
-    
-<button id="boton">Calcular Tarifa</button>
-
-
-<p id="tarifa"></p>
+    <script src="main.js"></script>
   </body>
 </html>
